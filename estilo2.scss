@@ -1,0 +1,51 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{scroll-behavior: smooth;}
+.logo img{width: 20%}
+.banner img{width: 100%;}
+
+.topo{
+    position: fixed;
+    width: 100%;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 100%;
+}
+
+.noticia1{
+    margin: 0px;
+    width: 50%;
+}
+
+.lateral1{
+    margin: 0px;
+    width: 50%;
+}
+.lateral1 img{width: 40%;}
+
+.noticia2{
+    margin: 0px;
+    width: 50%;
+}
+
+.lateral2{
+    margin: 0px;
+    width: 50%;
+}
+.lateral2 img{width: 40%;}
+
+.rodape{
+    border-top: 1px solid #333;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
